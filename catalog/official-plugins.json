@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "channel": "stable",
+  "generated_at": "2026-07-11T16:53:02Z",
+  "plugins": [
+    {
+      "id": "media_converter",
+      "name": "Fetchora",
+      "version": "0.1.0",
+      "min_app_version": "0.1.0",
+      "package_filename": "Fetchora-0.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/fetchora-v0.1.0/Fetchora-0.1.0.stz-plugin",
+      "sha256": "85af0b7938d2cfcc60293eabb2e554c0d4e15b3fd9f761a4a2ccf7bce69fb73c",
+      "size_bytes": 79105510,
+      "permissions": [
+        "filesystem",
+        "network"
+      ],
+      "summary": {
+        "pt_BR": "Download e conversão de áudio/vídeo.",
+        "en": "Audio/video download and conversion."
+      },
+      "description": {
+        "pt_BR": "Fetchora baixa mídia da web (via yt-dlp) e converte arquivos locais com FFmpeg/Deno. Ideal para filas em lote, pastas e presets de áudio/vídeo.",
+        "en": "Fetchora downloads web media (via yt-dlp) and converts local files with FFmpeg/Deno. Built for batch queues, folders, and audio/video presets."
+      },
+      "features": {
+        "pt_BR": [
+          "Download por URL com yt-dlp",
+          "Conversão local e lotes de pasta",
+          "Dependências Deno/FFmpeg no pacote do plugin"
+        ],
+        "en": [
+          "URL downloads with yt-dlp",
+          "Local conversion and folder batches",
+          "Deno/FFmpeg runtimes packaged with the plugin"
+        ]
+      }
+    },
+    {
+      "id": "leitor",
+      "name": "Lumio",
+      "version": "0.1.0",
+      "min_app_version": "0.1.0",
+      "package_filename": "Lumio-0.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/lumio-v0.1.0/Lumio-0.1.0.stz-plugin",
+      "sha256": "04dffb263673415eb193029415dcb91e96abfab861e4e372df917920c9e0ffa5",
+      "size_bytes": 3903385,
+      "permissions": [
+        "filesystem"
+      ],
+      "summary": {
+        "pt_BR": "Leitor local de PDF, EPUB e HQ (CBZ/CBR).",
+        "en": "Local PDF, EPUB and comic (CBZ/CBR) reader."
+      },
+      "description": {
+        "pt_BR": "Lumio organiza uma biblioteca local e abre livros e revistas com progresso salvo, temas de leitura e controles de zoom/navegação.",
+        "en": "Lumio manages a local library and opens books and comics with saved progress, reading themes, and zoom/navigation controls."
+      },
+      "features": {
+        "pt_BR": [
+          "PDF, EPUB, CBZ/CBR",
+          "Biblioteca e recentes",
+          "Progresso e preferências de leitura"
+        ],
+        "en": [
+          "PDF, EPUB, CBZ/CBR",
+          "Library and recents",
+          "Progress and reading preferences"
+        ]
+      }
+    },
+    {
+      "id": "media_tracker",
+      "name": "Reperto",
+      "version": "0.1.0",
+      "min_app_version": "0.1.0",
+      "package_filename": "Reperto-0.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/reperto-v0.1.0/Reperto-0.1.0.stz-plugin",
+      "sha256": "62f5f77f37dc4379291a829e94ba008e1687d934fe5e191a39337c57ffb7c577",
+      "size_bytes": 18288,
+      "permissions": [
+        "filesystem",
+        "network"
+      ],
+      "summary": {
+        "pt_BR": "Biblioteca pessoal de mídia (livros, filmes, séries…).",
+        "en": "Personal media library (books, movies, shows…)."
+      },
+      "description": {
+        "pt_BR": "Reperto guarda o que você consome ou planeja consumir, com capas, status e busca online (Open Library e Google Books quando configurado).",
+        "en": "Reperto tracks what you consume or plan to consume, with covers, status, and online search (Open Library and Google Books when configured)."
+      },
+      "features": {
+        "pt_BR": [
+          "Catálogo com status e notas",
+          "Capas locais",
+          "Busca online de livros"
+        ],
+        "en": [
+          "Catalog with status and notes",
+          "Local covers",
+          "Online book search"
+        ]
+      }
+    },
+    {
+      "id": "pomodoro",
+      "name": "Tempoza",
+      "version": "0.1.0",
+      "min_app_version": "0.1.0",
+      "package_filename": "Tempoza-0.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/tempoza-v0.1.0/Tempoza-0.1.0.stz-plugin",
+      "sha256": "00edeca3d9752b44421679918fd3500dae5634f95caa7968d943d8f0aae9eb7d",
+      "size_bytes": 11502,
+      "permissions": [],
+      "summary": {
+        "pt_BR": "Timer Pomodoro com áudio de foco.",
+        "en": "Pomodoro timer with focus audio."
+      },
+      "description": {
+        "pt_BR": "Tempoza ajuda a manter ciclos de foco e pausa, com opções de áudio de fundo, alarmes e preferências de sessão.",
+        "en": "Tempoza helps keep focus/break cycles, with background audio, alarms, and session preferences."
+      },
+      "features": {
+        "pt_BR": [
+          "Ciclos de foco e pausa",
+          "Áudio e alarme",
+          "Preferências persistentes"
+        ],
+        "en": [
+          "Focus and break cycles",
+          "Audio and alarm",
+          "Persistent preferences"
+        ]
+      }
+    },
+    {
+      "id": "metas_compras",
+      "name": "Orbhia",
+      "version": "0.1.0",
+      "min_app_version": "0.1.0",
+      "package_filename": "Orbhia-0.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/orbhia-v0.1.0/Orbhia-0.1.0.stz-plugin",
+      "sha256": "4ef905a05acca44f7ee8043035273dd4677fe98f1d3c67029bfbd8c31a39a914",
+      "size_bytes": 15032,
+      "permissions": [
+        "filesystem"
+      ],
+      "summary": {
+        "pt_BR": "Metas e compras com parcelas e assinaturas.",
+        "en": "Goals and purchases with installments and subscriptions."
+      },
+      "description": {
+        "pt_BR": "Orbhia organiza metas financeiras e compras (à vista, parceladas ou assinaturas), com acompanhamento local e suporte opcional a sync.",
+        "en": "Orbhia organizes financial goals and purchases (one-off, installments, or subscriptions), with local tracking and optional sync support."
+      },
+      "features": {
+        "pt_BR": [
+          "Metas e itens de compra",
+          "Parcelas e assinaturas",
+          "Sync opcional via core"
+        ],
+        "en": [
+          "Goals and purchase items",
+          "Installments and subscriptions",
+          "Optional core sync"
+        ]
+      }
+    },
+    {
+      "id": "translator",
+      "name": "Glotiva",
+      "version": "0.1.0",
+      "min_app_version": "0.1.0",
+      "package_filename": "Glotiva-0.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/glotiva-v0.1.0/Glotiva-0.1.0.stz-plugin",
+      "sha256": "4eacc36288cfb74046105dfb4d03e5344421818e52b127298299694fe3504423",
+      "size_bytes": 19086,
+      "permissions": [
+        "filesystem",
+        "network"
+      ],
+      "summary": {
+        "pt_BR": "Tradução offline com modelos baixáveis.",
+        "en": "Offline translation with downloadable models."
+      },
+      "description": {
+        "pt_BR": "Glotiva traduz textos usando motor local (CTranslate2). Você baixa só os modelos dos pares de idioma que precisa.",
+        "en": "Glotiva translates text with a local engine (CTranslate2). Download only the language-pair models you need."
+      },
+      "features": {
+        "pt_BR": [
+          "Tradução local",
+          "Instalação de modelos sob demanda",
+          "Pares de idioma configuráveis"
+        ],
+        "en": [
+          "Local translation",
+          "On-demand model install",
+          "Configurable language pairs"
+        ]
+      }
+    },
+    {
+      "id": "mouse_recorder",
+      "name": "Cursorium",
+      "version": "0.1.0",
+      "min_app_version": "0.1.0",
+      "package_filename": "Cursorium-0.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/cursorium-v0.1.0/Cursorium-0.1.0.stz-plugin",
+      "sha256": "93c53d36909d79e12d4b44d4e521d48b93e7c5e83e164528448ca33253e4e6e8",
+      "size_bytes": 14747,
+      "permissions": [
+        "input_capture"
+      ],
+      "summary": {
+        "pt_BR": "Grava e reproduz movimentos de mouse.",
+        "en": "Record and replay mouse movements."
+      },
+      "description": {
+        "pt_BR": "Cursorium captura movimentos e cliques do mouse, salva gravações e permite reproduzir com atalhos globais e opções de repetição.",
+        "en": "Cursorium captures mouse moves and clicks, saves recordings, and replays them with global hotkeys and repeat options."
+      },
+      "features": {
+        "pt_BR": [
+          "Gravar e reproduzir",
+          "Atalhos globais",
+          "Histórico de gravações"
+        ],
+        "en": [
+          "Record and replay",
+          "Global hotkeys",
+          "Recording history"
+        ]
+      }
+    },
+    {
+      "id": "stz_maintenance",
+      "name": "Tunerium",
+      "version": "0.1.0",
+      "min_app_version": "0.1.0",
+      "package_filename": "Tunerium-0.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/tunerium-v0.1.0/Tunerium-0.1.0.stz-plugin",
+      "sha256": "404cc49477eae00a3a1e7557d29fcc33b043b292489e7a5ba24464fc5840c27f",
+      "size_bytes": 12638,
+      "permissions": [
+        "network"
+      ],
+      "summary": {
+        "pt_BR": "Diagnóstico de rede e ajustes do Windows.",
+        "en": "Network diagnostics and Windows tweaks."
+      },
+      "description": {
+        "pt_BR": "Tunerium reúne ping/traceroute e atalhos de manutenção (como ajustes de registro) para diagnosticar e afinar o ambiente.",
+        "en": "Tunerium combines ping/traceroute and maintenance shortcuts (such as registry tweaks) to diagnose and tune the environment."
+      },
+      "features": {
+        "pt_BR": [
+          "Ping e traceroute",
+          "Histórico de testes",
+          "Ajustes de registro (com cuidado)"
+        ],
+        "en": [
+          "Ping and traceroute",
+          "Test history",
+          "Registry tweaks (use carefully)"
+        ]
+      }
+    }
+  ]
+}
