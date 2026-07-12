@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-07-11T16:53:02Z",
+  "generated_at": "2026-07-12T00:45:04Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -142,8 +142,8 @@
       "min_app_version": "0.1.0",
       "package_filename": "Orbhia-0.1.0.stz-plugin",
       "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/orbhia-v0.1.0/Orbhia-0.1.0.stz-plugin",
-      "sha256": "4ef905a05acca44f7ee8043035273dd4677fe98f1d3c67029bfbd8c31a39a914",
-      "size_bytes": 15032,
+      "sha256": "3f42547d55085f4cabec9ef1b0d8110ed304ebd08985b4d30d88da91637c608d",
+      "size_bytes": 16533,
       "permissions": [
         "filesystem"
       ],
