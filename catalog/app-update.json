@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "channel": "stable",
+  "version": "0.1.1",
+  "installer_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/stz-suite-base-v0.1.1/STZ-Suite-Base-0.1.1-Setup.exe",
+  "sha256": "c2890e797218ce398b8ed324f94db22f283f38b073c8624f5e58c9ba1c488fda",
+  "size_bytes": 57972974
+}

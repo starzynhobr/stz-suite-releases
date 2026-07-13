@@ -107,12 +107,12 @@
     {
       "id": "pomodoro",
       "name": "Tempoza",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "min_app_version": "0.1.0",
-      "package_filename": "Tempoza-0.1.0.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/tempoza-v0.1.0/Tempoza-0.1.0.stz-plugin",
-      "sha256": "00edeca3d9752b44421679918fd3500dae5634f95caa7968d943d8f0aae9eb7d",
-      "size_bytes": 11502,
+      "package_filename": "Tempoza-1.1.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/tempoza-v1.1.0/Tempoza-1.1.0.stz-plugin",
+      "sha256": "8701b20926a8de93b8f0c2319bd1a262615b59df3eb38bf24300d5f84a958303",
+      "size_bytes": 20926,
       "permissions": [],
       "summary": {
         "pt_BR": "Timer Pomodoro com áudio de foco.",
