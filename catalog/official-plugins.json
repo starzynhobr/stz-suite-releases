@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-07-27T10:16:48Z",
+  "generated_at": "2026-07-27T10:18:32Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -181,8 +181,8 @@
       "min_app_version": "0.1.0",
       "package_filename": "Ordelya-0.1.0.stz-plugin",
       "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/ordelya-v0.1.0/Ordelya-0.1.0.stz-plugin",
-      "sha256": "c14e6b961d09b17adb3a9d63c92d5f6ca38d29864b1e5d5ac973018ff904bc07",
-      "size_bytes": 23067,
+      "sha256": "a9bf969b20d87c23c238b6ccc768112d025c75be6888cd477edb47d635e477bd",
+      "size_bytes": 23248,
       "permissions": [
         "notifications"
       ],
