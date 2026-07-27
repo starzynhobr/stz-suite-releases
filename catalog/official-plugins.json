@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-07-27T10:13:47Z",
+  "generated_at": "2026-07-27T10:15:17Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -143,12 +143,12 @@
     {
       "id": "metas_compras",
       "name": "Orbhia",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "min_app_version": "0.1.0",
-      "package_filename": "Orbhia-0.1.0.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/orbhia-v0.1.0/Orbhia-0.1.0.stz-plugin",
-      "sha256": "3f42547d55085f4cabec9ef1b0d8110ed304ebd08985b4d30d88da91637c608d",
-      "size_bytes": 16533,
+      "package_filename": "Orbhia-0.2.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/orbhia-v0.2.0/Orbhia-0.2.0.stz-plugin",
+      "sha256": "e40c4f9afcbb0c67d0031c646a3d28936e80d1a28ab6ff26dd519ba9c09a6207",
+      "size_bytes": 19525,
       "permissions": [
         "filesystem",
         "notifications"
