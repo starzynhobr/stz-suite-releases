@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-08-09T19:12:55Z",
+  "generated_at": "2026-08-09T19:15:05Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -277,12 +277,12 @@
     {
       "id": "stz_maintenance",
       "name": "Tunerium",
-      "version": "0.1.0",
-      "min_app_version": "0.1.0",
-      "package_filename": "Tunerium-0.1.0.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/tunerium-v0.1.0/Tunerium-0.1.0.stz-plugin",
-      "sha256": "404cc49477eae00a3a1e7557d29fcc33b043b292489e7a5ba24464fc5840c27f",
-      "size_bytes": 12638,
+      "version": "0.2.0",
+      "min_app_version": "0.4.0",
+      "package_filename": "Tunerium-0.2.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/tunerium-v0.2.0/Tunerium-0.2.0.stz-plugin",
+      "sha256": "5b29cae656025c26df5cf3d197701f0cb162ce2bf0e82c5724cb677699164f6d",
+      "size_bytes": 84726,
       "permissions": [
         "network"
       ],
