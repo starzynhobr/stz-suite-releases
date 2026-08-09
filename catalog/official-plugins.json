@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-08-09T19:04:17Z",
+  "generated_at": "2026-08-09T19:06:20Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -108,12 +108,12 @@
     {
       "id": "pomodoro",
       "name": "Tempoza",
-      "version": "1.2.0",
-      "min_app_version": "0.1.0",
-      "package_filename": "Tempoza-1.2.0.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/tempoza-v1.2.0/Tempoza-1.2.0.stz-plugin",
-      "sha256": "e7bd1b96ad93d0d45ea0171c061ae41d886d1896578e276f511082562261d31d",
-      "size_bytes": 26128,
+      "version": "1.3.0",
+      "min_app_version": "0.4.0",
+      "package_filename": "Tempoza-1.3.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/tempoza-v1.3.0/Tempoza-1.3.0.stz-plugin",
+      "sha256": "0eb2e56f87d37b98a40b755386a533160fd1c5eb2bef2f4e9736ca6ff3dbdb91",
+      "size_bytes": 109430,
       "permissions": [
         "filesystem",
         "network",
