@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-08-09T19:08:31Z",
+  "generated_at": "2026-08-09T19:10:47Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -210,12 +210,12 @@
     {
       "id": "translator",
       "name": "Glotiva",
-      "version": "0.1.0",
-      "min_app_version": "0.1.0",
-      "package_filename": "Glotiva-0.1.0.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/glotiva-v0.1.0/Glotiva-0.1.0.stz-plugin",
-      "sha256": "4eacc36288cfb74046105dfb4d03e5344421818e52b127298299694fe3504423",
-      "size_bytes": 19086,
+      "version": "0.2.0",
+      "min_app_version": "0.4.0",
+      "package_filename": "Glotiva-0.2.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/glotiva-v0.2.0/Glotiva-0.2.0.stz-plugin",
+      "sha256": "2a3ba1d2b9463e113c061c8472d22f19c67316ad15cbdb4133bd454f1c6edcd8",
+      "size_bytes": 91462,
       "permissions": [
         "filesystem",
         "network"
