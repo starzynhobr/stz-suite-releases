@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-08-01T02:21:04Z",
+  "generated_at": "2026-08-09T18:54:55Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -177,12 +177,12 @@
     {
       "id": "ordelya",
       "name": "Ordelya",
-      "version": "0.2.0",
-      "min_app_version": "0.3.0",
-      "package_filename": "Ordelya-0.2.0.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/ordelya-v0.2.0/Ordelya-0.2.0.stz-plugin",
-      "sha256": "17db13221586b76aea02fc965f2c991d3f46656e09fb2da912954914ad8b7288",
-      "size_bytes": 159596,
+      "version": "0.3.0",
+      "min_app_version": "0.4.0",
+      "package_filename": "Ordelya-0.3.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/ordelya-v0.3.0/Ordelya-0.3.0.stz-plugin",
+      "sha256": "000f321937953af67a2d0487d47f578bb51d31c5d3194f0299841f48b348c0d2",
+      "size_bytes": 172315,
       "permissions": [
         "notifications"
       ],
