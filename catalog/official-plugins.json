@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-08-09T19:01:59Z",
+  "generated_at": "2026-08-09T19:04:17Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -74,12 +74,12 @@
     {
       "id": "media_tracker",
       "name": "Reperto",
-      "version": "0.1.1",
-      "min_app_version": "0.1.0",
-      "package_filename": "Reperto-0.1.1.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/reperto-v0.1.1/Reperto-0.1.1.stz-plugin",
-      "sha256": "8a4221f1e90ba0f8bccbc237682a2367b628f02dd30abde0e93f3cf8ddfe131e",
-      "size_bytes": 18845,
+      "version": "0.2.0",
+      "min_app_version": "0.4.0",
+      "package_filename": "Reperto-0.2.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/reperto-v0.2.0/Reperto-0.2.0.stz-plugin",
+      "sha256": "ab4bbc46e2334c0ad893e7bc1256803617a93e9ceec89674fad1bb3ea7534fad",
+      "size_bytes": 97461,
       "permissions": [
         "filesystem",
         "network"
