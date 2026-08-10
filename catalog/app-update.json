@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "version": "0.4.0",
-  "installer_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/stz-suite-base-v0.4.0/STZ-Suite-Base-0.4.0-Setup.exe",
-  "sha256": "35e0fb5be0741e780eff6a00bf7d1a2bb6ef00dcfb051237b8397d4d7f719235",
-  "size_bytes": 54940166
+  "version": "0.4.1",
+  "installer_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/stz-suite-base-v0.4.1/STZ-Suite-Base-0.4.1-Setup.exe",
+  "sha256": "cee317a554b393df93740e66952fa9dea00b58d49e3a917f3360b216298f5105",
+  "size_bytes": 54945326
 }
