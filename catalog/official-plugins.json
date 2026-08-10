@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-08-10T21:23:51Z",
+  "generated_at": "2026-08-10T21:25:58Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -244,12 +244,12 @@
     {
       "id": "mouse_recorder",
       "name": "Cursorium",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "min_app_version": "0.4.0",
-      "package_filename": "Cursorium-0.2.0.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/cursorium-v0.2.0/Cursorium-0.2.0.stz-plugin",
-      "sha256": "737c23d5949f0263f7ae8549e27473dbab752cd70929c67335eca3114ab915c3",
-      "size_bytes": 87556,
+      "package_filename": "Cursorium-0.2.1.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/cursorium-v0.2.1/Cursorium-0.2.1.stz-plugin",
+      "sha256": "0edeb1603b7d5a2f3013dffc60fd4d37de2bd06dded103509cccbe5f37be1c61",
+      "size_bytes": 87577,
       "permissions": [
         "input_capture"
       ],
