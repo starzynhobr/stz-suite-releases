@@ -1,7 +1,7 @@
 # STZ Suite
 
 <p align="center">
-  <img src="https://stzlabs.com/images/projects/stz-suite/plugins/ordelya/home.png" alt="STZ Suite running the Ordelya plugin" width="900">
+  <img src="./assets/screenshots/ordelya-progress.png" alt="STZ Suite running the Ordelya progress dashboard" width="900">
 </p>
 
 **A local-first plugin platform for Windows. Install only the tools you want — no account, no subscription, no telemetry.**
@@ -75,6 +75,8 @@ Compare it with the attached [`STZ-Suite-Base-0.4.1-Setup.sha256.txt`](https://g
 ```powershell
 Get-FileHash -Algorithm SHA256 .\STZ-Suite-Base-0.4.1-Setup.exe
 ```
+
+Review the public [VirusTotal report](https://www.virustotal.com/gui/file/cee317a554b393df93740e66952fa9dea00b58d49e3a917f3360b216298f5105/detection) for this exact installer.
 
 ## Feedback and support
 
