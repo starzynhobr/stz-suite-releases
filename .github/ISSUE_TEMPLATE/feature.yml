@@ -1,0 +1,49 @@
+name: Feature request
+description: Suggest an improvement based on a problem or workflow.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. Describe the problem first so the best solution can be evaluated.
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Area
+      options:
+        - STZ Suite Base
+        - Fetchora
+        - Lumio
+        - Reperto
+        - Tempoza
+        - Orbhia
+        - Ordelya
+        - Glotiva
+        - Cursorium
+        - Tunerium
+        - New plugin idea
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Explain the situation or friction you encountered.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested solution
+      description: Describe your preferred result. A specific implementation is optional.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround or alternatives
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions for a similar request.
+          required: true

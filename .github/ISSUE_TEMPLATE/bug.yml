@@ -1,0 +1,64 @@
+name: Bug report
+description: Report a reproducible problem in STZ Suite or an official plugin.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve STZ Suite. Please do not include private files, API keys, tokens, or other sensitive data.
+  - type: input
+    id: suite-version
+    attributes:
+      label: STZ Suite version
+      placeholder: "0.4.1"
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin and version
+      description: Leave blank if the problem affects the Base application.
+      placeholder: "Lumio 0.3.1"
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Click...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add screenshots or non-sensitive logs if they help explain the problem.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and did not find this problem.
+          required: true
+        - label: I removed private or sensitive information from this report.
+          required: true

@@ -1,104 +1,85 @@
-# STZ Suite — Releases
+# STZ Suite
 
-**Public** distribution repository for STZ Suite.
+<p align="center">
+  <img src="https://stzlabs.com/images/projects/stz-suite/plugins/ordelya/home.png" alt="STZ Suite running the Ordelya plugin" width="900">
+</p>
 
-This repository does **not** contain application source code. It hosts release artifacts and the official plugin catalog only.
+**A local-first plugin platform for Windows. Install only the tools you want — no account, no subscription, no telemetry.**
 
-Development source lives in a separate private repository.
+<p align="center">
+  <a href="https://github.com/starzynhobr/stz-suite-releases/releases/download/stz-suite-base-v0.4.1/STZ-Suite-Base-0.4.1-Setup.exe"><strong>Download STZ Suite 0.4.1</strong></a>
+  · Windows 10/11, x64 · 52.4 MiB
+</p>
 
-## Contents
+> [!IMPORTANT]
+> The installer is not code-signed yet, so Windows SmartScreen may show a warning. Every Base release includes a SHA-256 checksum so you can verify the downloaded file.
 
-| Content | Location |
-|---------|----------|
-| Official plugin catalog | [`catalog/official-plugins.json`](./catalog/official-plugins.json) |
-| Base installer (Windows) | [GitHub Releases](https://github.com/starzynhobr/stz-suite-releases/releases) — tag `stz-suite-base-v*` |
-| Plugin packages (`.stz-plugin`) | [GitHub Releases](https://github.com/starzynhobr/stz-suite-releases/releases) — one tag per plugin |
+## What is STZ Suite?
 
-## Base (desktop app)
+STZ Suite is a lightweight desktop shell for independent utilities. The Base starts empty: open **Settings → Plugins**, choose the tools you need, and the official catalog handles installation and updates.
 
-The Base is an **empty shell**: no plugins bundled. Users install plugins on demand from **Settings → Plugins**.
+- **Local-first:** app data and preferences stay on your computer.
+- **Modular:** plugins are installed and updated independently.
+- **Private by default:** no account and no telemetry.
+- **Free to use:** no subscription or feature paywall.
 
-| Field | Example |
-|-------|---------|
-| Tag | `stz-suite-base-v0.1.0` |
-| Title | `STZ Suite 0.1.0` / `STZ Suite Base 0.1.0` |
-| Assets | `STZ-Suite-Base-0.1.0-Setup.exe`, `STZ-Suite-Base-0.1.0-Setup.sha256.txt` |
+Some features intentionally access the internet — for example, downloading media, book metadata, translation models, catalog updates, or optional sync. The Suite does not claim that every plugin is permanently offline.
 
-Typical download URL:
+## How it works
 
-```text
-https://github.com/starzynhobr/stz-suite-releases/releases/download/stz-suite-base-v0.1.0/STZ-Suite-Base-0.1.0-Setup.exe
-```
+1. Install the small Base application.
+2. Open **Settings → Plugins** and install only the tools you want.
+3. Receive verified plugin updates through the official catalog.
 
-### Install notes
+## Official plugins
 
-1. Download the Setup executable (and optionally the `.sha256.txt`).
-2. Run the installer (per-user default: `%LocalAppData%\Programs\STZ Suite`).
-3. Open **Settings → Plugins** to install official plugins from this catalog.
-4. Optional: **Start with Windows** in Settings.
+| Plugin        | What it does                                                                      |
+| ------------- | --------------------------------------------------------------------------------- |
+| **Fetchora**  | Downloads web media and converts local audio/video files with queues and presets. |
+| **Lumio**     | Organizes and reads PDF, EPUB, CBZ, and CBR files with saved progress.            |
+| **Reperto**   | Tracks books and other media you plan to consume, are consuming, or completed.    |
+| **Tempoza**   | Runs focus/break cycles with presets, background audio, and alarms.               |
+| **Orbhia**    | Organizes financial goals, purchases, installments, and subscriptions.            |
+| **Ordelya**   | Manages tasks, projects, steps, routines, progress, and reminders.                |
+| **Glotiva**   | Translates text locally with language-pair models installed on demand.            |
+| **Cursorium** | Records and replays mouse movements and clicks with shortcuts and repetition.     |
+| **Tunerium**  | Provides network diagnostics and controlled Windows maintenance adjustments.      |
 
-## Plugins
+<table>
+  <tr>
+    <td width="50%"><img src="https://stzlabs.com/images/projects/stz-suite/plugins/lumio/home.png" alt="Lumio local reading library"><br><strong>Lumio</strong> — local reading library</td>
+    <td width="50%"><img src="https://stzlabs.com/images/projects/stz-suite/plugins/tempoza/home.png" alt="Tempoza focus timer"><br><strong>Tempoza</strong> — focus timer</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://stzlabs.com/images/projects/stz-suite/plugins/glotiva/home.png" alt="Glotiva local translator"><br><strong>Glotiva</strong> — local translation</td>
+    <td width="50%"><img src="https://stzlabs.com/images/projects/stz-suite/plugins/ordelya/home.png" alt="Ordelya task manager"><br><strong>Ordelya</strong> — tasks and routines</td>
+  </tr>
+</table>
 
-Each plugin version has **its own** GitHub Release (not one monolith with every plugin).
+## Install
 
-| Field | Example |
-|-------|---------|
-| Tag | `fetchora-v0.1.0` |
-| Title | `Fetchora 0.1.0` |
-| Asset | `Fetchora-0.1.0.stz-plugin` |
+1. [Download the latest Base installer](https://github.com/starzynhobr/stz-suite-releases/releases/latest).
+2. Run the installer. The default per-user location is `%LocalAppData%\Programs\STZ Suite`.
+3. Open **Settings → Plugins** to build your collection.
 
-Asset filenames use the **brand** name:
+### Verify the installer
 
-```text
-Fetchora-0.1.0.stz-plugin
-Lumio-0.1.0.stz-plugin
-Reperto-0.1.0.stz-plugin
-…
-```
-
-Typical asset URL:
-
-```text
-https://github.com/starzynhobr/stz-suite-releases/releases/download/<tag>/<file>.stz-plugin
-```
-
-## How the app uses this repository
-
-1. Downloads the catalog from `catalog/official-plugins.json` on `main`.
-2. Each catalog entry declares `version`, `package_url`, and `sha256`.
-3. **Install / Update** uses the catalog URL (it does **not** depend on GitHub `latest`).
-4. An update is available when the installed version is lower than the catalog version.
-
-Default catalog URL (stable path):
+The SHA-256 for `STZ-Suite-Base-0.4.1-Setup.exe` is:
 
 ```text
-https://raw.githubusercontent.com/starzynhobr/stz-suite-releases/refs/heads/main/catalog/official-plugins.json
+cee317a554b393df93740e66952fa9dea00b58d49e3a917f3360b216298f5105
 ```
 
-## Security
+Compare it with the attached [`STZ-Suite-Base-0.4.1-Setup.sha256.txt`](https://github.com/starzynhobr/stz-suite-releases/releases/download/stz-suite-base-v0.4.1/STZ-Suite-Base-0.4.1-Setup.sha256.txt) file. PowerShell can calculate the local hash:
 
-- Prefer HTTPS URLs from this repository only.
-- The app verifies plugin packages against the `sha256` declared in the catalog (when set).
-- Base installer integrity: use the attached `.sha256.txt` on each Base release.
-- Do not publish source code or secrets in this repository.
+```powershell
+Get-FileHash -Algorithm SHA256 .\STZ-Suite-Base-0.4.1-Setup.exe
+```
 
-## Publishing workflow
+## Feedback and support
 
-### Plugin
+- [Ask a question or share an idea](https://github.com/starzynhobr/stz-suite-releases/discussions)
+- [Report a bug](https://github.com/starzynhobr/stz-suite-releases/issues/new/choose)
+- [Explore STZ Suite on the STZ Labs website](https://stzlabs.com/projects/stz-suite)
 
-1. Build the `.stz-plugin` in the private development repository.
-2. Create a Release with tag `<brand-lowercase>-vX.Y.Z` and attach the asset.
-3. Update `catalog/official-plugins.json` (`version`, `package_url`, `sha256`, `size_bytes`).
-4. Commit and push the catalog to the `main` branch.
-
-### Base
-
-1. Build Base + Inno Setup in the private development repository.
-2. Create a Release with tag `stz-suite-base-vX.Y.Z`.
-3. Attach `STZ-Suite-Base-X.Y.Z-Setup.exe` and the matching `.sha256.txt`.
-4. Add a short release description (install steps + notes).
-
-## License / usage
-
-Official binary and catalog distribution for STZ Suite.  
-Application source code and product terms remain in the private development repository.
+This repository contains public release artifacts and the official plugin catalog. It does **not** contain the application source code. Technical publishing notes are kept in [`PUBLISHING.md`](./PUBLISHING.md).

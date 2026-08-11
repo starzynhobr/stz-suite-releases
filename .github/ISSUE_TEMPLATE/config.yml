@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions, feedback, and general ideas
+    url: https://github.com/starzynhobr/stz-suite-releases/discussions
+    about: Use Discussions when the topic is not a confirmed bug or a defined feature request.
+  - name: STZ Suite website
+    url: https://stzlabs.com/projects/stz-suite
+    about: View screenshots, plugin details, and the latest download.
