@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-08-11T16:32:39Z",
+  "generated_at": "2026-08-12T11:17:00Z",
   "plugins": [
     {
       "id": "media_converter",
@@ -40,12 +40,12 @@
     {
       "id": "leitor",
       "name": "Lumio",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "min_app_version": "0.4.0",
-      "package_filename": "Lumio-0.3.2.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/lumio-v0.3.2/Lumio-0.3.2.stz-plugin",
-      "sha256": "aa66ab7c71f6e23673d9ca1b354cdfb56cbc3c943a9c9748d81e7f40073839e6",
-      "size_bytes": 4643747,
+      "package_filename": "Lumio-0.3.3.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/lumio-v0.3.3/Lumio-0.3.3.stz-plugin",
+      "sha256": "17abde27433e461b1c9d9653a830bace8195ec5c70a7e4857427ed388de8c814",
+      "size_bytes": 4644732,
       "permissions": [
         "filesystem",
         "notifications"
