@@ -1,7 +1,7 @@
 # STZ Suite
 
 <p align="center">
-  <img src="./assets/screenshots/ordelya-progress.png" alt="STZ Suite running the Ordelya progress dashboard" width="900">
+  <img src="./assets/screenshots/stz-suite-preview.gif" alt="STZ Suite installing plugins and running Lumio and Ordelya" width="900">
 </p>
 
 **A local-first plugin platform for Windows. Install only the tools you want — no account, no subscription, no telemetry.**
@@ -30,6 +30,10 @@ Some features intentionally access the internet — for example, downloading med
 1. Install the small Base application.
 2. Open **Settings → Plugins** and install only the tools you want.
 3. Receive verified plugin updates through the official catalog.
+
+<p align="center">
+  <img src="./assets/screenshots/ordelya-progress.png" alt="Ordelya progress dashboard running inside STZ Suite" width="900">
+</p>
 
 ## Official plugins
 
