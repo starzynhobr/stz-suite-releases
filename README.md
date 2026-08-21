@@ -62,7 +62,7 @@ Some features intentionally access the internet — for example, downloading med
 
 ## Install
 
-1. [Download the latest Base installer](https://github.com/starzynhobr/stz-suite-releases/releases/latest).
+1. [Download the STZ Suite Base 0.4.1 installer](https://github.com/starzynhobr/stz-suite-releases/releases/tag/stz-suite-base-v0.4.1).
 2. Run the installer. The default per-user location is `%LocalAppData%\Programs\STZ Suite`.
 3. Open **Settings → Plugins** to build your collection.
 
