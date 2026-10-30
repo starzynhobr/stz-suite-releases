@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "generated_at": "2026-10-30T07:35:36Z",
+  "generated_at": "2026-10-30T07:37:43Z",
   "plugins": [
     {
       "id": "media_converter",
       "name": "Fetchora",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "min_app_version": "0.4.0",
-      "package_filename": "Fetchora-0.2.0.stz-plugin",
-      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/fetchora-v0.2.0/Fetchora-0.2.0.stz-plugin",
-      "sha256": "8ef1b5176b585e4176f258967e3ff5f704e7454af48e991e9c78f541ac1312e8",
-      "size_bytes": 79182372,
+      "package_filename": "Fetchora-0.3.0.stz-plugin",
+      "package_url": "https://github.com/starzynhobr/stz-suite-releases/releases/download/fetchora-v0.3.0/Fetchora-0.3.0.stz-plugin",
+      "sha256": "3271bc2b7682073fc791b3cb7c2998e3aecd5341dd1cdf7312660f4d0a1baa70",
+      "size_bytes": 79190343,
       "permissions": [
         "filesystem",
         "network"
